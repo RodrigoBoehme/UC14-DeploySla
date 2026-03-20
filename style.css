@@ -1,0 +1,49 @@
+* {
+    display: flexbox;
+}
+
+body {
+    background-color: blueviolet;
+    max-width: 100%;
+    color: yellow;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /*tipo de fonte*/
+    /* ultilizando o modelo flexblox para organizar o conteudo */
+    align-items: center;
+    /*centraliza verticalmente o conteudo*/
+    height: 100vh;
+    /* altura ocupa 100% da altura da janela do navegador*/
+    margin: 0%;
+    /* remove a margem padrao do navegador*/
+    padding-bottom: 5%;
+
+    padding-top: 10px;
+    text-align: center;
+    align-items: center;
+}
+.inputs{
+    width: 300px;
+    border-radius: 15px;
+    padding-bottom: 5px;
+}
+.container{
+    background-color: rebeccapurple;
+    /*Define a cor do  container*/
+
+    border-radius: 10px;
+    /*cantos arredores*/
+
+    padding: 25px; 
+    /*adicionar um espaço interno (padding) ao redor do conteudo*/
+    max-width: 400px;
+    /*Define a largura maxima do conteiner*/
+
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.9);
+    /*adiciona uma sombra bem leve para destacar o container*/
+}
+.Logo {
+    max-width: 400px;
+    max-height: auto;
+
+}
